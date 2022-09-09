@@ -18,7 +18,6 @@ header h1 {
 
 a:link, a:visited {
     text-decoration: none;
-    list-style: none;
     color: white;
     background-color: #627C40;
 }
@@ -131,3 +130,14 @@ box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 
     .form button:hover,.form button:active,.form button:focus {
         background: #43A047; }
+
+    footer {
+        position: absolute;
+        text-align: center;
+        line-height: 20px;
+        height: 100px;
+        width: 100%;
+margin-top: 900px;
+margin-left: 0px;
+color: #4CAF50;
+}
