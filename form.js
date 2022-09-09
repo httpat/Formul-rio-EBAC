@@ -13,9 +13,9 @@ function ckeckInputs(){
     const numBValue = numeroB.value 
 
     if (numAValue > numBValue) {
-        alert ('O número de B é menor do que o de A')
+        alert ('Inválido,  número de B é menor do que o de A')
     } else {
-        alert ('O número de B é maior do que o de A')
+        alert ('Válido, o número de B é maior do que o de A')
     } 
 
 }
