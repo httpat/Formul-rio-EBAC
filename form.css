@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    background-color:#86BBA2;
+}
+
+.title {
+    font-size: 35px;
+    font-weight: lighter;
+    margin: 0%;
+    padding: 10px;
+    border: 10px solid #236746;
+    background-color: #236746;
+    text-align: center;
+    color: whitesmoke;
+}
+
+input::placeholder {
+    color: whitesmoke;
+}
+
+.container {
+margin-top: 20px;
+display: flex;
+justify-content: center;
+}
+
+.container #numeroB {
+    margin-top: 10px;
+    background-color: #236746;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+.container #numeroA {
+    background-color: #236746;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+#btn {
+    margin-top: 6px;
+    display: flex;
+    justify-content: center;
+    color: black;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
