@@ -1,0 +1,122 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  
+  /* Estilos de Cabeçalho */
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 80px 0 50px;
+  }
+
+  header nav {
+    cursor: pointer;
+  }
+
+
+  header {
+    padding: 1px 0;
+    border-bottom: 1px solid #770d59;
+    background-color: #89087c;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  } 
+
+  /* Estilos do menu */
+  
+  li {
+    list-style: none;
+    float: left;
+    padding: 10px;
+  }
+
+
+
+  .clear {
+    clear: both;
+  }
+
+  /* Estilos da seção "Sobre a Loja" */
+  .sobre-loja {
+    display: grid; 
+    grid-template-columns: 80%;
+    padding: 20px;
+  }
+  
+  .sobre-loja img {
+    float: left;
+    margin-right: 18px;
+  }
+  
+  .sobre-loja h1 {
+
+}
+
+  .sobre-loja p {
+    margin-left: 20px;
+    display: flex;
+  }
+  
+  /* Estilos da seção de produtos */
+  .produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .produto {
+    width: 23%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .produto img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .produto h3 {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
+  .produto p {
+    margin-top: 5px;
+    font-size: 14px;
+    max-width: 50%;
+  }
+  
+  .produto button {
+    display: block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #770d59;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+
+    /* Estilos para dispositivos móveis */
+    
+    @media screen and (max-width: 768px){ 
+
+        width: 100%;
+        
+        li {
+            list-style: none;
+            float: left;
+          }
+          .produto p {
+            margin-top: 5px;
+            font-size: 14px;
+          }
+    }
+    
