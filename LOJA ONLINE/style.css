@@ -4,8 +4,16 @@ body {
     margin: 0;
     padding: 0;
   }
-
+  .cards-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .card img {
+    max-width: 100%;
+    max-height: 100%;
+  }
   
+
   /* Estilos de Cabeçalho */
   header .container {
     display: flex;
@@ -53,70 +61,33 @@ body {
     margin-right: 18px;
   }
   
-  .sobre-loja h1 {
-
-}
 
   .sobre-loja p {
     margin-left: 20px;
     display: flex;
   }
   
-  /* Estilos da seção de produtos */
-  .produtos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 20px;
-  }
-  
-  .produto {
-    width: 23%;
-    margin-bottom: 20px;
-    padding: 10px;
-    border-radius: 5px;
-  }
-  
-  .produto img {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  .produto h3 {
-    margin-top: 10px;
-    font-size: 18px;
-  }
-  
-  .produto p {
-    margin-top: 5px;
-    font-size: 14px;
-    max-width: 50%;
-  }
-  
-  .produto button {
-    display: block;
-    margin-top: 10px;
-    padding: 8px 16px;
-    background-color: #770d59;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    
-
     /* Estilos para dispositivos móveis */
     
-    @media screen and (max-width: 768px){ 
 
-        width: 100%;
-        
+      @media (max-width: 768px) {
+
         li {
-            list-style: none;
-            float: left;
-          }
-          .produto p {
-            margin-top: 5px;
-            font-size: 14px;
-          }
-    }
-    
+          list-style: none;
+          float: left;
+        }
+        .produto p {
+          margin-top: 5px;
+          font-size: 14px;
+        }
+
+        /* For tablets, display two cards per slide */
+        .carousel-item .card-group {
+          flex-wrap: wrap;
+        }
+      
+        .carousel-item .card {
+          width: calc(50% - 15px); /* Set the width to 50% of the container minus some margin */
+          margin-bottom: 15px; /* Add some space between cards */
+        }
+      }
