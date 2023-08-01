@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
   }
+
   .cards-wrapper {
     display: flex;
     justify-content: center;
@@ -70,9 +71,9 @@ body {
     /* Estilos para dispositivos móveis */
     
 
-      @media (max-width: 768px) {
-
-        li {
+    @media screen and (max-width: 768px){ 
+      
+      li {
           list-style: none;
           float: left;
         }
@@ -80,14 +81,5 @@ body {
           margin-top: 5px;
           font-size: 14px;
         }
-
-        /* For tablets, display two cards per slide */
-        .carousel-item .card-group {
-          flex-wrap: wrap;
-        }
-      
-        .carousel-item .card {
-          width: calc(50% - 15px); /* Set the width to 50% of the container minus some margin */
-          margin-bottom: 15px; /* Add some space between cards */
-        }
-      }
+        
+  }
