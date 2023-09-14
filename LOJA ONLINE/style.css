@@ -71,15 +71,16 @@ body {
     /* Estilos para dispositivos móveis */
     
 
-    @media screen and (max-width: 768px){ 
+    @media screen and (max-width: 768px){
+
+      .container {
       
-      li {
-          list-style: none;
-          float: left;
-        }
-        .produto p {
-          margin-top: 5px;
-          font-size: 14px;
-        }
-        
-  }
+      display: grid;
+      
+      grid-template-columns: 1fr 1fr;
+      
+      gap: 20px;
+      
+      }
+      
+      }
