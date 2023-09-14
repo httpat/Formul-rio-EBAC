@@ -20,7 +20,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 80px 0 50px;
+    margin: 0 90px 0 50px;
   }
 
   header nav {
@@ -70,14 +70,25 @@ body {
   
     /* Estilos para dispositivos móveis */
     
+    @media screen and (min-width: 768px){
 
+      .container {
+      
+      display: grid;
+      
+      grid-template-columns: repeat(2, 1fr)
+      
+      
+      }
+
+    }
     @media screen and (max-width: 768px){
 
       .container {
       
       display: grid;
       
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 2fr 5fr;
       
       gap: 20px;
       
