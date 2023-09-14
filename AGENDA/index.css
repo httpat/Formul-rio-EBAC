@@ -1,0 +1,79 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.title {
+    width: 612px;
+    height: 48px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 30px;
+    padding: 50px;
+    text-align: center;
+    
+    color: #151C48;
+}
+
+
+.form { 
+    margin: 50px auto;
+    display: flex;
+    max-width: 300px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(3, 24, 81, 0.2), 0 5px 5px 0 rgba(7, 12, 79, 0.24);
+    
+    }
+
+    .form input {
+        font-family: "Roboto", sans-serif;
+    background: #f2f2f2;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+
+    .btn {
+        font-family: "Roboto", sans-serif;
+        text-transform: uppercase;
+        outline: 0;
+        background: #0b54b3;
+        width: 60%;
+        border: 0;
+        padding: 5px;
+        color: #FFFFFF;
+        font-size: 14px;
+        border-radius: 19px;
+        -webkit-transition: all 0.3 ease;
+        transition: all 0.3 ease;
+        cursor: pointer;
+    }
+
+    .form button:hover,.form button:active,.form button:focus {
+        background: #151C48; }
+
+    #nome {
+        padding: 3px;
+    }
+
+
+    #telefone {
+        margin-top: 15px;
+        padding: 3px;
+    }
+
+    .btn {
+        margin-top: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+
